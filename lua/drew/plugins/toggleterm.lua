@@ -13,7 +13,7 @@ return {
         
         -- Setup
         require("toggleterm").setup({
-            open_mapping = [[<leader>\]],
+            open_mapping = [[<c-t>]],
             hide_numbers = true,
             direction = "float",
             float_opts = {
